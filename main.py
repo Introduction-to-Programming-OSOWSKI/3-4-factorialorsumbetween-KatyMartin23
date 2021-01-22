@@ -6,7 +6,7 @@ def factOrSum(x, o):
         return number
     else:
         total = 0 
-        for i in range (1, x):
+        for i in range (1, x + 1):
             total = total + i 
         return total 
 print (factOrSum(4, "factorial"))
